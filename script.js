@@ -1,3 +1,12 @@
+
+function subtract(num1, num2) {
+    return num1 - num2;
+}
+
+function multiply(num1, num2) {
+    return num1 * num2;
+}
+
 function operate(operation, num1, num2){
     if(operation == "add"){
         return add(num1, num2);
@@ -36,3 +45,4 @@ const number1 = input("Enter the first number: ");
 const number2 = input("Enter the second number: ");
 const operation = input("Enter the operation: (add, subtract, multiply, divide)");
 console.log(operate(operation, number1, number2));
+
