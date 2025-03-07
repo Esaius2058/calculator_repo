@@ -1,3 +1,18 @@
+
+/*let operation = document.getElementById("operation");
+let num1 = document.getElementById("num1");
+let num2 = document.getElementById("num2");*/
+
+
+function subtract(num1, num2){
+    return num1 - num2;
+}
+
+function multiply(num1, num2){
+   return num1 * num2;
+}
+
+
 function operate(operation, num1, num2){
     if(operation == "add"){
         return add(num1, num2);
