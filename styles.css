@@ -1,0 +1,43 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+    font-family: 'Open Sans', sans-serif;
+    background-color: #404040;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 56%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border: 2px solid white; 
+    transition: 0.3s ease-in-out; 
+}
+
+
+input[type="text"]:hover {
+    color: white;
+    background-color: gray;
+    border-color: gray;
+}
+
+
+input[type="button"] {
+    width: 48px;
+    height: 48px;
+    margin: 5px;
+    font-size: 16px;
+}
